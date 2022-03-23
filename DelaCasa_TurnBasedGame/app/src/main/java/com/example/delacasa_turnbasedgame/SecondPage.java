@@ -78,8 +78,6 @@ public class SecondPage extends AppCompatActivity implements View.OnClickListene
         skill2Btn.setOnClickListener(this);
         skill3Btn.setOnClickListener(this);
 
-
-
         MediaPlayer mediaPlayer = MediaPlayer.create(SecondPage.this, R.raw.second_bgm);
         mediaPlayer.start();
         mediaPlayer.setLooping(true);
