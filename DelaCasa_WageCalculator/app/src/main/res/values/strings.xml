@@ -1,0 +1,23 @@
+<resources>
+    //1st page things
+    <string name="app_name">DelaCasa_WageCalculator</string>
+    <string name="title">Wage Calculator</string>
+    <string name="title2">Calculated Results</string>
+    <string name="type_of_employee">Type of Employee:</string>
+    <string name="regular">Regular</string>
+    <string name="probationary">Probationary</string>
+    <string name="part_time">Part-time</string>
+    <string name="calculate">Calculate</string>
+    <string name="enter_number_of_hours">Enter Number of Hours</string>
+    <string name="enter_employee_name">Enter Employee Name</string>
+    <string name="chosen_type_of_employee">Chosen type of Employee:</string>
+
+    //2nd page things
+    <string name="text_employee_name">Name of Employee:</string>
+    <string name="text_hours_rendered">Hours Rendered:</string>
+    <string name="text_hours_overtime">Overtime Hours:</string>
+    <string name="text_wage_regular">Regular Wage:</string>
+    <string name="text_wage_overtime">Overtime Wage:</string>
+    <string name="text_wage_total">Total Wage:</string>
+    <string name="result_NA">N/A</string>
+</resources>
