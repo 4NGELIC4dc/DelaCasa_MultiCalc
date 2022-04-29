@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         editTextHours = findViewById(R.id.editTextHours);
         //text
         textTitle3 = findViewById(R.id.textTitle3);
-
         //onClick listeners
         btnRegular.setOnClickListener(this);
         btnProbationary.setOnClickListener(this);

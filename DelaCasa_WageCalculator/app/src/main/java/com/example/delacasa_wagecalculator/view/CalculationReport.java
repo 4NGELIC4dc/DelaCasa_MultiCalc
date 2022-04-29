@@ -47,6 +47,7 @@ public class CalculationReport extends AppCompatActivity {
         double overtimeWage = functions.solveWageOvertime(variables.getEmployeeType(), overtime);
         double total = functions.solveTotalWage(regular, overtimeWage);
 
+        //set text
         resEmployeeName.setText(variables.getName() + "(" + variables.getEmployeeType() + ")");
         resHoursR.setText(String.valueOf(variables.getHours()));
         resHoursO.setText(String.valueOf(overtime));
