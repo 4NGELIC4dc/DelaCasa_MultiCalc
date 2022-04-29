@@ -48,10 +48,10 @@ public class CalculationReport extends AppCompatActivity {
         double total = functions.solveTotalWage(regular, overtimeWage);
 
         resEmployeeName.setText(variables.getName() + "(" + variables.getEmployeeType() + ")");
-        resHoursR.setText("Hours Rendered:" + variables.getHours());
-        resHoursO.setText("Overtime Hours:" + overtime);
-        resWageR.setText("Regular Wage:" + regular);
-        resWageO.setText("Overtime Wage:" + overtimeWage);
+        resHoursR.setText(String.valueOf(variables.getHours()));
+        resHoursO.setText(String.valueOf(overtime));
+        resWageR.setText(String.valueOf(regular));
+        resWageO.setText(String.valueOf(overtimeWage));
         resWageTotal.setText(String.valueOf(total));
     }
 }
