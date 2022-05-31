@@ -1,6 +1,7 @@
 package com.example.delacasa_turnbasedgame;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.widget.Button;
@@ -13,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         setContentView(R.layout.activity_main);
 
         final MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.start_sfx);
