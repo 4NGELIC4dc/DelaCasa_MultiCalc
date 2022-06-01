@@ -10,7 +10,7 @@
         android:id="@+id/title_kinetic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="KINETIC"
+        android:text="KINETIC ENERGY"
         android:textColor="@color/lime_green"
         android:textSize="40sp"
         android:textStyle="bold"
